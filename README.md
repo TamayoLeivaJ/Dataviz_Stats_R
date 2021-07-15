@@ -58,7 +58,7 @@ Nota: Solo es necesario que corras este comando una vez al comenzar del curso.<b
 <p style="text-align:justify">
 
 <h2 style="font-weight:normal" align="left">
-&nbsp;Sesión I (<a href="https://tamayoleivaj.github.io/Dataviz_R_PUCV_2021/002_Slides/Sesion_001/Sesion_001.html">Link</a>) &nbsp;
+&nbsp;Sesión I (<a href="https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/002_Slides/Sesion_001/Sesion_001.html">Link</a>) &nbsp;
 </h2>
 
 ![https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/blob/main/Image/Dataviz_Stats_R_ES_SI.png](https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/blob/main/Image/Dataviz_Stats_R_ES_SI.png)
