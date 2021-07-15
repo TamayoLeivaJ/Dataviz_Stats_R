@@ -23,7 +23,7 @@
  <a href="https://www.linkedin.com/in/javier-ignacio-tamayo-leiva-94613267/"><img height="32" width="32" src="https://github.com/TamayoLeivaJ/TamayoLeivaJ/blob/main/Image/logo/linkedin.svg" /></a> 
 </div>
 
-![https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/blob/main/Image/PUCV_R_Dataviz_2021.png](https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/blob/main/Image/PUCV_R_Dataviz_2021.png) 
+![https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Image/Dataviz_Stats_R_ES_SI.png](https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Image/Dataviz_Stats_R_ES_SI.png) 
 
 <h2 style="font-weight:normal" align="left">Bienvenido! </h2>
 Esta página contiene el material del curso teórico-práctico para la visualización y análisis estadístico en R. Realizado para la Pontificia Universidad Católica de Valparaíso, durante junio - agosto 2021.<br>     
