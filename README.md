@@ -29,9 +29,8 @@
 Esta página contiene el material del curso teórico-práctico para la visualización y análisis estadístico en R. Realizado para la Pontificia Universidad Católica de Valparaíso, durante junio - agosto 2021.<br>     
 
 <h3 style="font-weight:normal" align="left">Horario </h3>
-Sesión I: Martes, 15 de junio 2021, 14:30pm - 17:00pm <br>
-Sesión II: Martes, 22 de junio 2021, 14:30pm - 17:00pm <br>
-Sesión III: Martes, 29 de junio 2021, 14:30pm - 17:00pm <br>
+Sesión I: Jueves, 15 de julio 2021, 14:00pm - 16:00pm <br>
+
 
 <h3 style="font-weight:normal" align="left">Instructor </h3>
 Javier Tamayo Leiva <br>
@@ -61,7 +60,7 @@ Nota: Solo es necesario que corras este comando una vez al comenzar del curso.<b
 &nbsp;Sesión I (<a href="https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/002_Slides/Sesion_001/Sesion_001.html">Link</a>) &nbsp;
 </h2>
 
-![https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/blob/main/Image/Dataviz_Stats_R_ES_SI.png](https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/blob/main/Image/Dataviz_Stats_R_ES_SI.png)
+![https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Image/Dataviz_Stats_R_ES_SI.png](https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Image/Dataviz_Stats_R_ES_SI.png)
 
 <h3 style="font-weight:normal" align="left">
 &nbsp;R & RStudio&nbsp;
