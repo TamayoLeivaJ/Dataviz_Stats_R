@@ -26,7 +26,7 @@
 ![https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Image/Dataviz_Stats_R_ES_SI.png](https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Image/Dataviz_Stats_R_ES_SI.png) 
 
 <h2 style="font-weight:normal" align="left">Bienvenido! </h2>
-Esta página contiene el material del curso teórico-práctico para la visualización y análisis estadístico en R. Realizado para la Pontificia Universidad Católica de Valparaíso, durante junio - agosto 2021.<br>     
+Esta página contiene el material del curso teórico-práctico para la visualización y análisis estadístico en R. Realizado para la Pontificia Universidad Católica de Chile, 2021.<br>     
 
 <h3 style="font-weight:normal" align="left">Horario </h3>
 Sesión I: Jueves, 15 de julio 2021, 14:00pm - 16:00pm <br>
@@ -41,7 +41,7 @@ Javier Tamayo Leiva <br>
 
 Pueden instalar todos los paquetes necesarios para ejecutar cada ejemplo del curso mediante el siguiente comando:
 
-`source("https://tamayoleivaj.github.io/Dataviz_R_PUCV_2021/Dataviz_R_PUCV_2021.R")` <br>
+`source("https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Dataviz_Stats_R_ES.R")` <br>
 
 Nota: Solo es necesario que corras este comando una vez al comenzar del curso.<br>
 
