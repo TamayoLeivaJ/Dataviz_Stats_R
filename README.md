@@ -87,3 +87,51 @@ Nota: Solo es necesario que corras este comando una vez al comenzar del curso.<b
 </h3>
 
 - Posición y Color<br><br>
+
+<h2 style="font-weight:normal" align="left">
+&nbsp;Sesión II (<a href="https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/002_Slides/Sesion_002/Sesion_002.html">Link</a>) &nbsp;
+</h2>
+
+![https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Image/Dataviz_Stats_R_ES_SII.png](https://tamayoleivaj.github.io/Dataviz_Stats_R_ES/Image/Dataviz_Stats_R_ES_SII.png)
+
+<h3 style="font-weight:normal" align="left">
+&nbsp;Análisis exploratorio de datos&nbsp;
+</h3>
+
+<h4 style="font-weight:normal" align="left">
+&nbsp;Estadística descriptiva&nbsp;
+</h4>
+
+- {gtsummary} package<br>
+- {ggpubr} package<br>
+- Visualizando distribuciones<br>
+    - Histograms, Density plot, Heatmaps <br>
+    - Medidas de Tendencia <br>
+    - q-q plots, ECDF plots<br>
+    - Boxplot, Violin plots <br>    
+- Análisis de normalidad<br>
+    - Shapiro–Wilk test <br>
+    - Kolmogorov-Smirnov test <br>
+- Análisis de Homocedasticidad <br>
+    - Levene test <br>
+    - Bartlett’s test <br>
+    - Fligner-Killeen test <br>
+
+<h4 style="font-weight:normal" align="left">
+&nbsp;Inferencia Estadística&nbsp;
+</h4>
+
+- Análisis de correlación <br>
+    - Pearson's *r* <br>
+    - Spearman's *ρ* (rho) <br>
+    - Kendall's *τ* (tau) <br>
+- Reducción de dimensión <br>
+    - Análisis de componentes principales (*PCA*) <br>
+- Modelos Lineales <br>
+    - `lm()` <br>
+- Análisis de varianza <br>
+    - F-test, T-test, chi-square <br>
+    - ANOVA test <br>
+    - Kruskal-Wallis test <br>
+    - Scheirer-Ray-Hare test <br>
+- {report} package <br>
