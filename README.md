@@ -30,6 +30,7 @@ Esta página contiene el material del curso teórico-práctico para la visualiza
 
 <h3 style="font-weight:normal" align="left">Horario </h3>
 Sesión I: Jueves, 15 de julio 2021, 14:00pm - 16:00pm <br>
+Sesión II: Jueves, 22 de julio 2021, 10:00am - 12:00pm <br>
 
 
 <h3 style="font-weight:normal" align="left">Instructor </h3>
