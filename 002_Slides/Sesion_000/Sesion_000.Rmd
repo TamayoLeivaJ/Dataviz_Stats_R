@@ -1,0 +1,131 @@
+---
+title: 'Visualización y Análisis en <img height="90" width="90" class="fa" src="./Image/logo/rstudio.svg"/>'
+subtitle: Visualización, análisis estadístico <br> y ecológico en R
+author:
+- Javier Tamayo Leiva <br><a href="mailto:j.tamayo.leiva@gmail.com"><img height="30" width="30" src="./Image/logo/envelope-solid.svg"/></a> <a href="https://orcid.org/0000-0003-2610-6957"><img height="30" width="30" src="./Image/logo/orcid.svg"/></a> <a href="https://scholar.google.com/citations?user=Rr-4cmQwXX4C&hl=es"><img height="30" width="30" src="./Image/logo/google-scholar.svg"/></a> <a href="https://www.researchgate.net/profile/Javier-Tamayo"><img height="30" width="30" src="./Image/logo/researchgate.svg"/></a> <a href="https://twitter.com/TamayoLeiva_J"><img height="30" width="30" src="./Image/logo/twitter.svg"/></a> <a href="https://github.com/TamayoLeivaJ"><img height="30" width="30" src="./Image/logo/github.svg"/></a> <a href="https://www.linkedin.com/in/javier-ignacio-tamayo-leiva-94613267/"><img height="30" width="30" src="./Image/logo/linkedin.svg"/></a>
+institute: "Pontificia Universidad Católica de Chile"
+date: '2021'
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>`
+---
+<style>
+.title-slide {
+  background-size: 70%;
+  background-position: center;
+}
+.fa {
+  vertical-align: middle;
+}
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+body {
+  text-align: justify;
+}
+.title-slide h1 {
+    color: #F2EAD0;
+    font-size: 90px;
+    font-family: "blacksword";
+}
+.title-slide, .title-slide h2, .title-slide h3 {
+    color: #FFF9F2;
+    font-family: 'Cormorant Garamond', serif;
+}
+.remark-slide-number {
+  position: inherit;
+}
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #F2CB07;
+}
+.left-code {
+  color: #777;
+  width: 38%;
+  height: 92%;
+  float: left;
+}
+.right-plot {
+  width: 60%;
+  float: right;
+  padding-left: 1%;
+}
+</style>
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=4.5, fig.height=6, fig.retina=2,
+  eval = TRUE,
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  fig.show = TRUE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggplot2) 
+library(gridExtra)
+library(DiagrammeR)
+library(RColorBrewer)
+library(viridis)
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#136585",
+  secondary_color = "#73455E",
+  inverse_header_color = "#D7D7D9",
+  title_slide_background_image = "./Image/Generative_Art_005.png",
+  title_slide_text_color = "#F2F2F2",
+  link_color = "#DAAB27",
+  text_font_google = google_font("Roboto Slab", "400", "400i", "600i", "700"),
+  header_font_google = google_font("Antonio", "300","500","700")
+)
+# xaringanExtra options
+# Provides more obvious code highlighting. Great for teaching.
+xaringanExtra::use_extra_styles(  # higlights code
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = TRUE  #<<
+)
+
+# Turns on clipboard options. Great for giving code to students.
+htmltools::tagList(
+  xaringanExtra::use_clipboard(
+    button_text = "<i class=\"fa fa-clipboard\"></i>",
+    success_text = "<i class=\"fa fa-check\" style=\"color: #90BE6D\"></i>",
+    error_text = "<i class=\"fa fa-times-circle\" style=\"color: #F94144\"></i>"
+  ),
+  rmarkdown::html_dependency_font_awesome()
+)
+
+# Extra options.
+xaringanExtra::use_tachyons()
+xaringanExtra::use_fit_screen()
+```
